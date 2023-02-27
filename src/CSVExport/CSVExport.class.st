@@ -46,6 +46,12 @@ CSVExport >> fanINClass [
 	^fanINClass
 ]
 
+{ #category : #'as yet unclassified' }
+CSVExport >> fanInClass: anOrderedCollection [
+
+	fanINClass := tsModel allModelClasses
+]
+
 { #category : #accessing }
 CSVExport >> fileName [
 	^fileNale
@@ -54,4 +60,10 @@ CSVExport >> fileName [
 { #category : #accessing }
 CSVExport >> tsModel [
 ^tsModel
+]
+
+{ #category : #accessing }
+CSVExport >> tsModel: anOrderCollection [
+
+	tsModel:=MooseModel root first
 ]
