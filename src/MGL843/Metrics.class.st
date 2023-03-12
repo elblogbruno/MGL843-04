@@ -16,16 +16,6 @@ Class {
 }
 
 { #category : #accessing }
-Metrics >> FanIn [
-	^FanIn
-]
-
-{ #category : #accessing }
-Metrics >> FanIn: anInteger [ 
-	FanIn:= anInteger
-]
-
-{ #category : #accessing }
 Metrics >> fanin [
 	^fanin
 ]
@@ -33,16 +23,6 @@ Metrics >> fanin [
 { #category : #accessing }
 Metrics >> fanin: anInteger [ 
 	fanin:= anInteger
-]
-
-{ #category : #accessing }
-Metrics >> faninvalue [
-	^faninvalue
-]
-
-{ #category : #accessing }
-Metrics >> faninvalue: anInteger [ 
-	faninvalue:= anInteger
 ]
 
 { #category : #accessing }
