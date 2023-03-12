@@ -9,8 +9,21 @@ Class {
 		'fanin',
 		'faninvalue'
 	],
+	#classVars : [
+		'FanIn'
+	],
 	#category : #MGL843
 }
+
+{ #category : #accessing }
+Metrics >> FanIn [
+	^FanIn
+]
+
+{ #category : #accessing }
+Metrics >> FanIn: anInteger [ 
+	FanIn:= anInteger
+]
 
 { #category : #accessing }
 Metrics >> fanin [
