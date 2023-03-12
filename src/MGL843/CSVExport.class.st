@@ -35,35 +35,3 @@ Class {
 	],
 	#category : #MGL843
 }
-
-{ #category : #accessing }
-CSVExport >> data [
-	^data
-]
-
-{ #category : #accessing }
-CSVExport >> fanINClass [
-	^fanINClass
-]
-
-{ #category : #'as yet unclassified' }
-CSVExport >> fanInClass: anOrderedCollection [
-
-	fanINClass := tsModel allModelClasses
-]
-
-{ #category : #accessing }
-CSVExport >> fileName [
-	^fileNale
-]
-
-{ #category : #accessing }
-CSVExport >> tsModel [
-^tsModel
-]
-
-{ #category : #accessing }
-CSVExport >> tsModel: anOrderCollection [
-
-	tsModel:=MooseModel root first
-]
