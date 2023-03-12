@@ -7,7 +7,13 @@ Class {
 	#instVars : [
 		'name',
 		'fanin',
-		'faninvalue'
+		'faninvalue',
+		'fanout',
+		'lcom2',
+		'lcom3',
+		'numberOfAttributes',
+		'numberOfLinesOfCode',
+		'numberOfMethods'
 	],
 	#classVars : [
 		'FanIn'
@@ -26,6 +32,36 @@ Metrics >> fanin: anInteger [
 ]
 
 { #category : #accessing }
+Metrics >> fanout [
+	^fanout
+]
+
+{ #category : #accessing }
+Metrics >> fanout: anInteger [
+		fanout:= anInteger 
+]
+
+{ #category : #accessing }
+Metrics >> lcom2 [ 
+	^lcom2
+]
+
+{ #category : #accessing }
+Metrics >> lcom2: aFloat [
+		lcom2:= aFloat 
+]
+
+{ #category : #accessing }
+Metrics >> lcom3 [ 
+	^lcom3
+]
+
+{ #category : #accessing }
+Metrics >> lcom3: aFloat [
+		lcom3:= aFloat 
+]
+
+{ #category : #accessing }
 Metrics >> name [
 	^ name
 ]
@@ -33,4 +69,34 @@ Metrics >> name [
 { #category : #accessing }
 Metrics >> name: aName [
 name:= aName
+]
+
+{ #category : #accessing }
+Metrics >> numberOfAttributes [
+	^numberOfAttributes
+]
+
+{ #category : #accessing }
+Metrics >> numberOfAttributes: anInteger [
+		numberOfAttributes:= anInteger 
+]
+
+{ #category : #accessing }
+Metrics >> numberOfLinesOfCode [
+	^numberOfLinesOfCode
+]
+
+{ #category : #accessing }
+Metrics >> numberOfLinesOfCode: anInteger [
+		numberOfLinesOfCode:= anInteger 
+]
+
+{ #category : #accessing }
+Metrics >> numberOfMethods [
+	^numberOfMethods
+]
+
+{ #category : #accessing }
+Metrics >> numberOfMethods: anInteger [
+		numberOfMethods:= anInteger 
 ]
