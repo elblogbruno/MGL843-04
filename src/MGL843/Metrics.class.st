@@ -6,10 +6,8 @@ Class {
 	#superclass : #Object,
 	#instVars : [
 		'name',
-		'fanin'
-	],
-	#classVars : [
-		'FANIn'
+		'fanin',
+		'faninvalue'
 	],
 	#category : #MGL843
 }
@@ -22,6 +20,16 @@ Metrics >> fanin [
 { #category : #accessing }
 Metrics >> fanin: anInteger [ 
 	fanin:= anInteger
+]
+
+{ #category : #accessing }
+Metrics >> faninvalue [
+	^faninvalue
+]
+
+{ #category : #accessing }
+Metrics >> faninvalue: anInteger [ 
+	faninvalue:= anInteger
 ]
 
 { #category : #accessing }
