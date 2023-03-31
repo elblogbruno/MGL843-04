@@ -13,8 +13,9 @@ Class {
 { #category : #running }
 ProjectScan >> run [
 	"Get the emojiopoly model (first in Moose panel)"
-| fanINClass data metrics |
-tsModel := MooseModel root first.
+| fanINClass data metrics projectname |
+tsModel := MooseModel root allModels.
+projectname := tsModel name, '.csv'.
 "Find all classes that have FanIN value"
 fanINClass  := tsModel allModelClasses 
     "select: [ :each | 
@@ -30,7 +31,7 @@ String streamContents: [ :writeStream |
 		nextPutAll: data ].
 
 
-'MetricValues.csv' asFileReference
+projectname asFileReference
 	writeStreamDo: [ :writeStream |
 		(NeoCSVWriter on: writeStream)
  			writeHeader: #( 'ClassName' 'fanIN'  'fanOut'  'lcom2' 'lcom3' 'numberOfAttributes' 'numberOfLinesOfCode' 'numberOfMethods' );
