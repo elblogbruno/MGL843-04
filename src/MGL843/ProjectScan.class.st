@@ -1,3 +1,6 @@
+"
+Metrics scan pour les projets
+"
 Class {
 	#name : #ProjectScan,
 	#superclass : #Object,
@@ -9,7 +12,10 @@ Class {
 
 { #category : #running }
 ProjectScan >> run [
+	"Get the emojiopoly model (first in Moose panel)"
 | fanINClass data metrics |
+tsModel := MooseModel root first.
+"Find all classes that have FanIN value"
 fanINClass  := tsModel allModelClasses 
     "select: [ :each | 
         each fanIn > 0 ]".
