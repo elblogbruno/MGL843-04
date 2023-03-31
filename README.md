@@ -2,7 +2,7 @@
 Projet pour le cours MGL843, s'unir ou ne pas s'unir.
 
 Code pour Pharo pour notre projet pour le cours MGL843. Dans ce projet, nous voulions démontrer empiriquement que nous pouvons avoir un bénéfice ou une différence dans la qualité de notre code en passant de l'utilisation des Classes
-en typographie, pour commencer à utiliser les types Union.
+en typescript, pour commencer à utiliser les types Union.
 
 
 
