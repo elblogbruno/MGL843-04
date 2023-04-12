@@ -14,7 +14,7 @@ Class {
 ProjectScan >> run [
 	"Get the emojiopoly model (first in Moose panel)"
 | fanINClass data metrics projectname |
-tsModel := MooseModel root allModels.
+"tsModel := MooseModel root last."
 projectname := tsModel name, '.csv'.
 "Find all classes that have FanIN value"
 fanINClass  := tsModel allModelClasses 

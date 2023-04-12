@@ -31,6 +31,18 @@ tsUnionModels do: [ :tsModel |
                 fileName := eachEntity value sourceAnchor fileName.
                 fileList add: fileName ] ].
 ].
+
+String streamContents: [ :writeStream |
+	(NeoCSVWriter on: writeStream)
+		writeHeader: #(id filename);
+		nextPutAll: fileList  ].
+	
+	'unionfile.csv' asFileReference
+	writeStreamDo: [ :writeStream |
+		(NeoCSVWriter on: writeStream)
+ 			writeHeader: #(id filename);
+			nextPutAll: fileList ].
+
 fileList inspect.
 ]
 
