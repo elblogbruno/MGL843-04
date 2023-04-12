@@ -10,7 +10,30 @@ Dans ce projet, nous voulions démontrer empiriquement que nous pouvons avoir un
 
 ### Instruction
 
-Dans une image Pharo Moose Suite 10 (development), copier le code suivant dans un playground et lancer l'exécution.
+Tout d'abord, vous devez cloner un projet, par exemple le projet Emojiopoly. Il est conseillé de le faire à l'intérieur d'un dossier, ex : Github :
+
+* `mkdir Github && cd Github`
+* `git clone https://github.com/Chuzzy/Emojiopoly`
+
+Ensuite, en suivant le tutoriel typescript de pharo, installez Famix :
+
+* `git clone https://github.com/Arezoo-Nasr/FamixTypeScriptImporter`
+
+* `cd FamixTypeScriptImporter`
+
+* `npm install`
+
+* `npm install -g ts-node`
+
+ et générer le fichier .json de notre projet :
+
+* `ts-node src/ts2famix-cli.ts -i "../Emojiopoly/**/*.ts" -o emojiopoly-model.json`
+
+Apres dans une image Pharo Moose Suite 10 (development) on peut cloner cette projet avec iceberg:
+
+![image](https://user-images.githubusercontent.com/10481058/231510555-3e785324-446b-478d-9f41-55f0e969a622.png)
+
+et copier le code suivant dans un playground et lancer l'exécution.
 * *Note*: l'image de test ne doit pas avoir la mise à jour des renommage de Moose de fin mars. 
 
 ```
