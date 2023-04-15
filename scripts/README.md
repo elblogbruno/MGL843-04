@@ -4,7 +4,7 @@
 
 ## Etapes
 
-### 1. installation de ts2famix
+### 1. Installation de ts2famix
 
 ```bash
 
