@@ -1,0 +1,14 @@
+,link,files
+0,https://github.com/reduxjs/reselect/commit/e91db71cf4e7269394e7c7184204e2aac81d1f5f,src/defaultMemoize.ts
+1,https://github.com/reduxjs/reselect/commit/e91db71cf4e7269394e7c7184204e2aac81d1f5f,test/test_selector.ts
+2,https://github.com/reduxjs/reselect/commit/239d50957f5f666101b2fabb9463a145f5bd57f3,src/defaultMemoize.ts
+3,https://github.com/reduxjs/reselect/commit/239d50957f5f666101b2fabb9463a145f5bd57f3,test/test_selector.ts
+4,https://github.com/reduxjs/reselect/commit/5b843258d322a863b155acabbe08d46635daf4b2,src/defaultMemoize.ts
+5,https://github.com/reduxjs/reselect/commit/5b843258d322a863b155acabbe08d46635daf4b2,test/test_selector.ts
+6,https://github.com/reduxjs/reselect/commit/c1d3f987c319264a684163f5437492d524cd2508,src/defaultMemoize.ts
+7,https://github.com/reduxjs/reselect/commit/c1d3f987c319264a684163f5437492d524cd2508,test/test_selector.ts
+8,https://github.com/reduxjs/reselect/commit/c1d3f987c319264a684163f5437492d524cd2508,typescript_test/test.ts
+9,https://github.com/reduxjs/reselect/commit/7284ba3d1ac60bdd6ab075767813db4208887b39,src/defaultMemoize.ts
+10,https://github.com/reduxjs/reselect/commit/7284ba3d1ac60bdd6ab075767813db4208887b39,test/test_selector.ts
+11,https://github.com/reduxjs/reselect/commit/98013a19a2a8ba66bf46fc50ecaeb5cca0ef42ad,src/defaultMemoize.ts
+12,https://github.com/reduxjs/reselect/commit/98013a19a2a8ba66bf46fc50ecaeb5cca0ef42ad,src/index.ts

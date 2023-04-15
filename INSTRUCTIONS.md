@@ -6,6 +6,9 @@ Ici vous trouverez les instructions pour l'installation et l'utilisation de notr
 
 * [Pharo](https://pharo.org/download)
 
+## Exemple cochange
+
+[voir le fichier README.md dans le dossier cochange](INSTRUCTIONS.md)
 
 ## Example d'analyse des projets
 

@@ -1,0 +1,15 @@
+,link,files
+0,https://github.com/mobxjs/mobx-react/commit/a492988c7a8d74a90028efe77d1e8c1a88590d56,CHANGELOG.md
+1,https://github.com/mobxjs/mobx-react/commit/a492988c7a8d74a90028efe77d1e8c1a88590d56,src/disposeOnUnmount.ts
+2,https://github.com/mobxjs/mobx-react/commit/a492988c7a8d74a90028efe77d1e8c1a88590d56,CHANGELOG.md
+3,https://github.com/mobxjs/mobx-react/commit/a492988c7a8d74a90028efe77d1e8c1a88590d56,src/disposeOnUnmount.ts
+4,https://github.com/mobxjs/mobx-react/commit/bba25e367fe90953d12a4805f120fc58ea7fd505,.circleci/config.yml
+5,https://github.com/mobxjs/mobx-react/commit/bba25e367fe90953d12a4805f120fc58ea7fd505,.eslintignore
+6,https://github.com/mobxjs/mobx-react/commit/bba25e367fe90953d12a4805f120fc58ea7fd505,.eslintrc.js
+7,https://github.com/mobxjs/mobx-react/commit/bba25e367fe90953d12a4805f120fc58ea7fd505,.vscode/settings.json
+8,https://github.com/mobxjs/mobx-react/commit/bba25e367fe90953d12a4805f120fc58ea7fd505,jest.setup.ts
+9,https://github.com/mobxjs/mobx-react/commit/bba25e367fe90953d12a4805f120fc58ea7fd505,package.json
+10,https://github.com/mobxjs/mobx-react/commit/bba25e367fe90953d12a4805f120fc58ea7fd505,publish.ts
+11,https://github.com/mobxjs/mobx-react/commit/bba25e367fe90953d12a4805f120fc58ea7fd505,src/Provider.tsx
+12,https://github.com/mobxjs/mobx-react/commit/bba25e367fe90953d12a4805f120fc58ea7fd505,src/disposeOnUnmount.ts
+13,https://github.com/mobxjs/mobx-react/commit/bba25e367fe90953d12a4805f120fc58ea7fd505,src/index.d.ts

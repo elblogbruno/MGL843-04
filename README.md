@@ -13,6 +13,7 @@ Les personnes qui ont participé à ce projet sont:
 
 * `scripts` : contient les scripts pour la génération des modèles famix.
 * `src` : contient le code source de pharo pour l'analyse des modèles famix.
+* `cochange`: contient le code source et resultats de la calculation du cochange.
 
 ### Instructions
 

@@ -1,0 +1,16 @@
+ClassName,fanIN,fanOut,lcom2,lcom3,numberOfAttributes,numberOfLinesOfCode,numberOfMethods
+Map,0,0,0,0,0,0,1
+Set,0,0,0,0,0,0,1
+Body,0,0,0,0,0,0,1
+ReadonlyArray,0,0,0,0,0,0,1
+ArrayConstructor,0,0,0,0,0,0,1
+ReadonlyArray,0,0,0,0,0,0,1
+ReadonlyMap,0,0,0,0,0,0,1
+Array,0,0,0,0,0,0,1
+Array,0,0,0,0,0,0,2
+ReadonlyArray,0,0,0,0,0,0,2
+JSON,0,0,0,0,0,0,1
+ReadonlySet,0,0,0,0,0,0,1
+Array,0,0,0,0,0,0,1
+,,,,,,,
+moyenne,0,0,0,0,0,0,1.153846154
