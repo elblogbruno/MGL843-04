@@ -7,6 +7,8 @@ Dans ce projet, nous voulions démontrer empiriquement que nous pouvons avoir un
 - src
     - CSVExport
     - MGL843
+- scripts
+    - Python et Bash Scripts
 
 ### Instruction
 
