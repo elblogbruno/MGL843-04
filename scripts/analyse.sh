@@ -1,8 +1,26 @@
 # This script is used to find the number of union type used in each project
 
-# input the path of the directory containing the models
-echo "Enter the path of the directory containing the models: "
-read models_path
+# check if --default is passed as an argument
+if [ "$1" = "--default" ]; then
+    # set the default values
+    models_path="models"
+else
+    # input the path of the directory containing the models
+    echo "Enter the path of the directory containing the models: (default: models): "
+    read models_path
+
+    # if the path is empty, set it to the default value
+    if [ -z "$models_path" ]; then
+        models_path="models"
+    fi
+fi
+
+# check if the directory exists
+if [ ! -d "$models_path" ]; then
+    echo "The directory does not exist. Please run the model.sh script first"
+    exit 1
+fi
+
 
 # for each model find the number of union type
 for model in $models_path/*; do

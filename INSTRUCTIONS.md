@@ -90,7 +90,10 @@ ListOfModel := MooseModel root.
 ListOfModel do: [ :each |scan:= ProjectScan new. scan tsModel: each. scan run. ].
 
 ```
-* *Note*: le chemin du dossier doit être modifié en fonction de votre image Pharo et de votre projet. Dans cette cas, 
+
+Cette commande va générer un fichier CSV dans le dossier 'images' de l'image (Exemple: C:\Users\Charles\Documents\Pharo\images) pour chaque modèle importé.
+
+* *Note*: le chemin du dossier doit être modifié en fonction de votre image Pharo et de votre projet. Ce chemin doit être le chemin du dossier contenant le fichier .json généré par ts-2-famix.
 
 * *Exemple*: C:\Users\Charles\Documents\Pharo\images\models test fanIN_exemple prof\Model
 * *Exemple Ubuntu*: /home/brunomoya/Pharo/images/Moose Suite 10 (development)/models
