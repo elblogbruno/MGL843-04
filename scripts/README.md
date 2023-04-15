@@ -46,6 +46,12 @@ Pour réaliser cette étape nous avons réalisé une suite de script:
 
 ```
 
+### Pour lancer l'analyse des projets
+
+[voir la section Pour lancer l'analyse du projet](https://github.com/elblogbruno/MGL843-04/blob/master/INSTRUCTIONS.md#pour-lancer-lanalyse-du-projet)
+
+
+
 ## Notes
 
 Ces script sont consus pour être exécutés sur un système linux.
