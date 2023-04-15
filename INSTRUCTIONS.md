@@ -61,7 +61,7 @@ Apres dans l'image on peut cloner cette projet avec iceberg:
 
 On doit aussi charger le projet dans l'image:
 
-![image](https://user-images.githubusercontent.com/10481058/231510666-3e785324-446b-478d-9f41-55f0e969a622.png)
+![image](https://user-images.githubusercontent.com/10481058/232180728-12b9b57d-bc28-45a1-8892-d8eea4cc6aa5.png)
 
 On doit aussi également déplacer le fichier .json généré par ts-2-famix dans un dossier à l'intérieur de l'image. Nous avons créé un exemple de dossier appelé 'models' dans le dossier 'images' de l'image. (Exemple: C:\Users\Charles\Documents\Pharo\images\models)
 
